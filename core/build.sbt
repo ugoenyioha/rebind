@@ -13,7 +13,6 @@ val specs2Version = "3.6.1"
 
 libraryDependencies ++= Seq(
   compilerPlugin("org.spire-math" %% "kind-projector" % "0.5.4"),
-
   "org.scalaz"      %% "scalaz-core"                % scalazVersion,
   "org.scalacheck"  %% "scalacheck"                 % "1.12.2"          % "test",
   "org.scalaz"      %% "scalaz-scalacheck-binding"  % scalazVersion     % "test",
